@@ -40,7 +40,6 @@ public class BonusCalculator {
         }catch (RuntimeException e){
             throw  new bonusexception(String.format("Not able to filter the array %s",e));
         }
-
         return elegibleEmployee;
     }
 
