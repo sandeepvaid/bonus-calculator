@@ -19,6 +19,7 @@ public class PersistData {
 
         for(Bonus bonus:bonusEmployee){
             Employee employee = new Employee();
+            employee.setEmpName(bonus.getEmpName());
             employee.setAmount(bonus.getAmount());
             employee.setCurrency(bonus.getCurrency());
             employee.setExitDate(bonus.getExitDate());
